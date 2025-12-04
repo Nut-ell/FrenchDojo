@@ -4,15 +4,23 @@ import { SentenceCard } from './components/SentenceCard';
 import { SENTENCE_DATA, MODE_CONFIGS } from './constants';
 import { SpeedMode } from './types';
 import { getTTSAudio, prefetchSentences, playPageTurnSound } from './services/audioService';
-import { ChevronLeft, ChevronRight, Gauge } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Gauge, Bookmark } from 'lucide-react';
+
+const BOOKMARK_KEY = 'frenchflow_bookmark';
 
 export default function App() {
   const [hasStarted, setHasStarted] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    // Load bookmark on initial render
+    const saved = localStorage.getItem(BOOKMARK_KEY);
+    return saved ? Math.max(0, Math.min(parseInt(saved, 10), SENTENCE_DATA.length - 1)) : 0;
+  });
   const [direction, setDirection] = useState(1);
   const [mode, setMode] = useState<SpeedMode>(SpeedMode.NORMAL);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [showJumpInput, setShowJumpInput] = useState(false);
+  const [jumpValue, setJumpValue] = useState('');
   
   // Audio Context Ref
   const audioCtxRef = useRef<AudioContext | null>(null);
@@ -21,12 +29,15 @@ export default function App() {
   // Prefetch Window Size
   const PREFETCH_COUNT = 3;
 
+  // Save bookmark whenever index changes
+  useEffect(() => {
+    localStorage.setItem(BOOKMARK_KEY, currentIndex.toString());
+  }, [currentIndex]);
+
   // Initialize Audio Context on user interaction and start prefetching
   const initializeAudio = useCallback(() => {
     if (!audioCtxRef.current) {
-      audioCtxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)({
-        sampleRate: 24000
-      });
+      audioCtxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
     }
     if (audioCtxRef.current.state === 'suspended') {
       audioCtxRef.current.resume();
@@ -141,6 +152,31 @@ export default function App() {
     }
   };
 
+  // Handle jump to specific page
+  const handleJump = useCallback(() => {
+    const target = parseInt(jumpValue, 10) - 1; // Convert to 0-based index
+    if (!isNaN(target) && target >= 0 && target < SENTENCE_DATA.length) {
+      stopAudio();
+      setDirection(target > currentIndex ? 1 : -1);
+      setCurrentIndex(target);
+      setShowJumpInput(false);
+      setJumpValue('');
+      
+      if (audioCtxRef.current) {
+        playPageTurnSound(audioCtxRef.current);
+      }
+    }
+  }, [jumpValue, currentIndex, stopAudio]);
+
+  const handleJumpKeyPress = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      handleJump();
+    } else if (e.key === 'Escape') {
+      setShowJumpInput(false);
+      setJumpValue('');
+    }
+  }, [handleJump]);
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4 relative overflow-hidden">
       {!hasStarted && <SettingsOverlay onStart={initializeAudio} />}
@@ -157,22 +193,59 @@ export default function App() {
             <span className="font-serif font-bold text-xl tracking-tight">FrenchFlow</span>
          </div>
          
-         <div className="flex items-center bg-white/80 backdrop-blur-md rounded-full shadow-sm border border-gray-200 p-1">
-            <Gauge size={16} className="ml-3 mr-2 text-gray-500" />
-            <div className="flex">
-               {(Object.values(SpeedMode) as SpeedMode[]).map((m) => (
-                 <button
-                   key={m}
-                   onClick={() => setMode(m)}
-                   className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-colors ${
-                     mode === m 
-                     ? 'bg-blue-600 text-white shadow-md' 
-                     : 'text-gray-500 hover:bg-gray-100'
-                   }`}
-                 >
-                   {m}
-                 </button>
-               ))}
+         <div className="flex items-center space-x-3">
+            {/* Jump to Page Button */}
+            <div className="relative">
+              {showJumpInput ? (
+                <div className="flex items-center bg-white/80 backdrop-blur-md rounded-full shadow-sm border border-gray-200 px-3 py-1.5">
+                  <input
+                    type="number"
+                    min="1"
+                    max={SENTENCE_DATA.length}
+                    value={jumpValue}
+                    onChange={(e) => setJumpValue(e.target.value)}
+                    onKeyDown={handleJumpKeyPress}
+                    placeholder={`1-${SENTENCE_DATA.length}`}
+                    className="w-20 px-2 py-1 text-sm border-none outline-none bg-transparent"
+                    autoFocus
+                  />
+                  <button
+                    onClick={handleJump}
+                    className="ml-2 px-3 py-1 text-xs font-semibold bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
+                  >
+                    Go
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setShowJumpInput(true)}
+                  className="flex items-center space-x-1 bg-white/80 backdrop-blur-md rounded-full shadow-sm border border-gray-200 px-3 py-1.5 hover:bg-gray-50 transition-colors"
+                  title="Jump to page"
+                >
+                  <Bookmark size={16} className="text-gray-500" />
+                  <span className="text-xs font-semibold text-gray-700">Jump</span>
+                </button>
+              )}
+            </div>
+
+            {/* Speed Mode Selector */}
+            <div className="flex items-center bg-white/80 backdrop-blur-md rounded-full shadow-sm border border-gray-200 p-1">
+               <Gauge size={16} className="ml-3 mr-2 text-gray-500" />
+               <div className="flex">
+                  {(Object.values(SpeedMode) as SpeedMode[]).map((m) => (
+                    <button
+                      key={m}
+                      onClick={() => setMode(m)}
+                      className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-colors ${
+                        mode === m 
+                        ? 'bg-blue-600 text-white shadow-md' 
+                        : 'text-gray-500 hover:bg-gray-100'
+                      }`}
+                    >
+                      {m}
+                    </button>
+                  ))}
+               </div>
             </div>
          </div>
       </header>
