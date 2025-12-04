@@ -1,0 +1,504 @@
+1. Je suis japonais.
+2. Je suis anglais.
+3. Tu es français ?
+4. Tu es étudiant ?
+5. Il est grand.
+6. Elle est grande.
+7. Paul et Marie sont étudiants.
+8. Ils sont des étudiants.
+9. Elles sont heureuses.
+10. Vous êtes bien ?
+11. J'ai une voiture.
+12. Tu as quel âge ?
+13. Elle a beaucoup de livres.
+14. Ils ont un chat.
+15. On a faim.
+16. On a un chien.
+17. Nous parlons le français.
+18. Nous étudions le français.
+19. Nous mangeons.
+20. Tu aimes le chocolat ?
+21. Elles aiment la musique.
+22. Il ne parle pas anglais.
+23. Il finit son travail.
+24. Nous finissons le travail.
+25. Tu finis tes devoirs ?
+26. Nous choisissons ce film.
+27. Je vais à Paris.
+28. Je vais au Canada.
+29. Je vais au Brésil.
+30. Je vais en France.
+31. Je vais aux États-Unis.
+32. Je vais aux toilettes.
+33. Nous allons au musée.
+34. Nous allons à la gare.
+35. Vous allez où ?
+36. Ils vont au Canada.
+37. On va au cinéma.
+38. On va bien.
+39. Je viens de Tokyo.
+40. Je viens de France.
+41. Je viens du Japon.
+42. Je viens du Canada.
+43. Je viens du Brésil.
+44. Je viens du Chili.
+45. Je viens des États-Unis.
+46. Ils viennent de France.
+47. Ils viennent des États-Unis.
+48. Vous venez du Japon ?
+49. La chemise est blanche.
+50. Les maisons sont grandes.
+51. Les fleurs sont rouges.
+52. Ils sont contents.
+53. C'est un bel appartement.
+54. Ce sont de beaux jardins.
+55. C'est mon école.
+56. C'est mon amie.
+57. C'est ton amie ?
+58. C'est son histoire.
+59. C'est mon père.
+60. C'est mon stylo.
+61. Ce sont mes voitures.
+62. Regardez cet arbre.
+63. C'est cet hôtel.
+64. Ce sont ces photos.
+65. C'est ce livre ?
+66. Je n'ai pas de tablette.
+67. Je n'ai pas de stylo.
+68. Je n'ai pas d'argent.
+69. Je n'ai pas d'amis.
+70. Il n'y a pas d'eau.
+71. Il n'y a pas de lait.
+72. Il n'y a pas de problème.
+73. Nous n'avons pas d'idée.
+74. Elle ne mange pas de légumes.
+75. Tu ne manges pas d'ananas.
+76. Il ne boit pas d'alcool.
+77. Il n'achète pas d'ordinateur.
+78. Elle n'a pas d'enfants.
+79. Je n'aime pas le lait.
+80. Il n'est plus jeune.
+81. Elle ne mange jamais de nattô.
+82. Ce n'est pas un problème.
+83. Ce n'est pas un stylo.
+84. Ce n'est pas un hôtel.
+85. Ce n'est pas une école.
+86. Ce n'est pas une voiture.
+87. Ce ne sont pas des étudiants.
+88. Ce ne sont pas des livres.
+89. Ce ne sont pas des voitures japonaises.
+90. Ce ne sont pas des touristes.
+91. Je vais sortir.
+92. Je vais manger.
+93. Je vais visiter Paris.
+94. Tu vas partir ce soir ?
+95. Il va manger le déjeuner.
+96. Il va prendre un café.
+97. Elle va prendre le train.
+98. Elle va prendre le bus.
+99. Nous allons acheter une voiture.
+100. Nous allons étudier le français.
+101. Vous allez comprendre.
+102. Vous allez écouter la radio.
+103. Vous allez partir ?
+104. Ils vont arriver bientôt.
+105. On va partir bientôt.
+106. On va manger ce soir.
+107. On va sortir.
+108. Nous venons d'arriver à Bordeaux.
+109. Nous venons de manger.
+110. Nous venons de partir.
+111. Quel âge a-t-il ?
+112. Quel temps fait-il ?
+113. Quel est votre nom ?
+114. Quelle est votre profession ?
+115. Quelle est votre nationalité ?
+116. Quelle heure est-il ?
+117. Quelles fleurs sont sur la table ?
+118. Combien coûte ce livre ?
+119. Où habitez-vous ?
+120. Quand partez-vous ?
+121. Est-ce que tu parles français ?
+122. Voyage-t-il au Japon ?
+123. Va à l'école.
+124. Parle un peu.
+125. Parle français !
+126. Regarde cette fleur !
+127. Regardez ces photos.
+128. Regardez cette photo.
+129. Soyez calmes !
+130. Allons au cinéma !
+131. Allons au restaurant !
+132. Écoutons la musique !
+133. C'est très bon.
+134. C'est un hôtel.
+135. Ce sont des stylos.
+136. Il est dix heures.
+137. Il fait beau.
+138. Il fait chaud.
+139. Il y a du vent.
+140. Il neige.
+141. Il est plus grand que moi.
+142. Je vais au cinéma avec lui.
+143. Si, j'ai faim.
+144. Je parle aux étudiants.
+145. C'est la voiture du père.
+146. C'est le frère de Paul.
+147. Je rentre du bureau.
+148. C'est un vin du Chili.
+149. Je finis mon travail à cinq heures.
+150. Mon frère grandit de jour en jour.
+151. ce jardin
+152. cet arbre
+153. cette fleur
+154. ces jardins
+155. ces arbres
+156. ces fleurs
+157. cet hôtel
+158. ce livre-ci
+159. ce livre-là
+160. mon père
+161. ta mère
+162. ses parents
+163. mon amie
+164. ton école
+165. son histoire
+166. Je suis français.
+167. Et toi ?
+168. Moi aussi.
+169. C'est Théo ?
+170. Oui, c'est lui.
+171. Tu es trop gentil avec elle.
+172. Il est plus studieux que nous.
+173. Elle est à Paris.
+174. Elles sont de Paris.
+175. Nous sommes lundi.
+176. On est lundi.
+177. Il a deux chiens.
+178. Nous avons faim.
+179. Vous avez du courage.
+180. Elles ont vingt ans.
+181. Ça a l'air bon !
+182. Ça va ?
+183. C'est ça.
+184. Oui, je suis étudiant.
+185. Non, je suis employé.
+186. C'est du sel, ça ?
+187. Oui, c'est du sel.
+188. Non, c'est du sucre.
+189. Je parle français.
+190. Je parle anglais.
+191. Je parle japonais.
+192. J'aime le cinéma.
+193. J'aime la musique.
+194. J'aime les livres.
+195. J'achète un CD.
+196. J'appelle un taxi.
+197. Nous commençons.
+198. Ils sont grands.
+199. Elles sont grandes.
+200. un sac rouge
+201. des sacs rouges
+202. une valise légère
+203. des valises légères
+204. un beau musée
+205. un bel appartement
+206. une belle boutique
+207. de beaux musées
+208. de beaux appartements
+209. de belles boutiques
+210. un joli vase
+211. de jolis vases
+212. une autre question
+213. d'autres questions
+214. Il parle français.
+215. Il ne parle pas français.
+216. Ce n'est pas mon stylo.
+217. J'ai une tablette.
+218. Elle mange des légumes.
+219. Il fait du tennis.
+220. Il ne fait pas de tennis.
+221. Il y a de l'eau.
+222. C'est du lait.
+223. Ce n'est pas du lait.
+224. J'aime le lait.
+225. Tu parles français ?
+226. Mark parle français ?
+227. Est-ce que Mark parle français ?
+228. Parles-tu français ?
+229. Mark parle-t-il français ?
+230. Aime-t-il le cinéma ?
+231. Oui, j'ai faim.
+232. Non, je n'ai pas faim.
+233. Ouvre la porte.
+234. N'aie pas peur.
+235. Il a vingt et un ans.
+236. Je suis musicien.
+237. J'aime les films d'aventures.
+238. Soyez calmes.
+239. Ce sont des violettes.
+240. Quelle belle vue !
+241. Il est deux heures dix.
+242. Il est deux heures et quart.
+243. Il est deux heures et demie.
+244. Il est trois heures moins le quart.
+245. Il est minuit.
+246. Il est midi.
+247. Il fait mauvais.
+248. Il fait doux.
+249. Il fait froid.
+250. Il fait frais.
+251. Il y a des nuages.
+252. Il pleut.
+253. Il y a beaucoup de musées à Paris.
+254. Il arrive souvent des catastrophes naturelles dans ce pays.
+255. Il faut prononcer clairement.
+256. Il ne faut pas fumer ici.
+257. Il faut de la viande pour faire cette recette.
+258. Il paraît qu'elle va partir en France pour étudier.
+259. Il est difficile d'apprendre plusieurs langues en même temps.
+260. C'est difficile d'apprendre plusieurs langues en même temps.
+261. un vélo
+262. des vélos
+263. une voiture
+264. des voitures
+265. le père de Paul
+266. la Terre
+267. les États-Unis
+268. le vin
+269. l'amour
+270. les fruits
+271. du vin
+272. de la bière
+273. de l'argent
+274. de l'eau
+275. un ami
+276. des hôtels
+277. une amie
+278. les étudiants
+279. Voici un stylo.
+280. Voici des stylos.
+281. Voilà une feuille.
+282. Voilà des feuilles.
+283. Voici Paul.
+284. Voilà le Louvre.
+285. C'est un restaurant.
+286. C'est de l'eau.
+287. Ce sont des restaurants.
+288. Il y a un livre sur la table.
+289. Il y a des livres sur la table.
+290. Je vais chercher Marie à l'aéroport.
+291. Je viens souvent ici prendre un café.
+292. C'est au bout de cette rue.
+293. C'est en face du cinéma.
+294. C'est loin des Champs-Élysées.
+295. à la mer
+296. à l'école
+297. de la gare
+298. de l'hôpital
+299. Parce que j'ai de la fièvre.
+300. C'est quand, ton anniversaire ?
+301. Elle est comment, son amie ?
+302. Pourquoi tu ne sors pas ?
+303. C'est combien, ce livre ?
+304. Tu as combien de cours demain ?
+305. Que faites-vous dans la vie ?
+306. Je suis avocat.
+307. Qui est premier en anglais ?
+308. C'est Vincent.
+309. Cette robe est en quoi ?
+310. Elle est en soie.
+311. Qui tu aimes comme poète ?
+312. J'aime Jacques Prévert.
+313. Avec qui tu sors ?
+314. Je sors avec Rose.
+315. Qu'est-ce que vous prenez comme boisson ?
+316. Une eau minérale, s'il vous plaît.
+317. Ce sont des applications.
+318. Qu'est-ce que c'est ?
+319. Ce sont les parents de Julia.
+320. Qui est-ce ?
+321. Il fait du foot.
+322. Il fait quoi comme sport ?
+323. Maria peut répondre à la question.
+324. Qui peut répondre à la question ?
+325. Il parle avec Marie au téléphone.
+326. Avec qui parle-t-il au téléphone ?
+327. Ils discutent de leur projet de voyage.
+328. De quoi discutent-ils ?
+329. Laquelle de ces voitures est à vous ?
+330. C'est la blanche.
+331. Parmi ces acteurs, lequel joue le rôle principal ?
+332. C'est Fabrice Luchini.
+333. De ces vêtements, lesquels sont pour l'hiver ?
+334. Ceux-là.
+335. Parmi ces chaussures, lesquelles vas-tu choisir ?
+336. Je préfère ces chaussures de marche.
+337. C'est Pascal qui veut étudier au Japon.
+338. C'est au Japon que Pascal veut étudier.
+339. Qui chante là ?
+340. C'est Rose.
+341. Qu'est-ce que tu prends comme dessert ?
+342. Va tout de suite chez lui.
+343. Ayons du courage.
+344. Soyez gentils avec vos parents.
+345. Ne dis pas ça à Léo.
+346. Ne parlons plus de ça.
+347. Faites comme chez vous.
+348. Quels sont ces arbres ? Ce sont des baobabs.
+349. Quel jour sommes-nous ? Samedi.
+350. Quelles matières aime-t-il ? Il aime la chimie et la musique.
+351. Quelle cuisine aimez-vous ? J'aime la cuisine italienne.
+352. Quel est ton livre préféré ? Le Rouge et le Noir de Stendhal.
+353. Quel est ton passe-temps favori ? C'est la pêche.
+354. Il fait très chaud aujourd'hui.
+355. Il faut faire des efforts pour réussir.
+356. Il paraît que Sylvie sort avec Patrick.
+357. Il y a une épicerie à côté de chez moi.
+358. Il arrive fréquemment des retards sur cette ligne.
+359. Il est nécessaire de réfléchir avant de décider.
+360. Quelle est sa profession ?
+361. Il fait beau aujourd'hui.
+362. Tu vas en Suisse ?
+363. Il vient des Pays-Bas.
+364. Nous allons au Japon.
+365. Ils viennent d'Angleterre.
+366. Je vais avoir vingt ans.
+367. Il vient d'arriver.
+368. Nous venons de finir ce travail.
+369. J'ai mal aux dents.
+370. C'est loin du Louvre.
+371. C'est à côté des Invalides.
+372. Je préfère le café au thé.
+373. Où est l'Opéra ? C'est tout droit.
+374. Ça fait combien ? Quinze euros vingt.
+375. Vous partez quand ? Demain matin.
+376. Pourquoi tu es si content ? Parce que cet après-midi on n'a pas cours.
+377. Sa cousine est comment ? Elle est sympa.
+378. Il y a combien de pièces ? Cinq.
+379. Quand arrive-t-elle ?
+380. Tu mesures combien ?
+381. Comment allez-vous à la fac ?
+382. Pourquoi est-il absent ?
+383. Où sont les toilettes ?
+384. Combien de temps mets-tu pour venir ici ?
+385. Où vas-tu demain ?
+386. Je viens d'arriver.
+387. Elle ne boit pas de lait.
+388. Il n'y a pas de cinémas.
+389. Nous ne prenons pas de taxi.
+390. Je ne fais pas de danse.
+391. Ce n'est pas un ordinateur.
+392. Ils n'aiment pas les voyages.
+393. Est-ce que c'est du vin ?
+394. Est-ce que ta mère travaille ?
+395. Est-ce qu'elle a des amis français ?
+396. Y a-t-il une supérette ?
+397. Pascal habite-t-il à Bordeaux ?
+398. Ces stylos sont-ils chers ?
+399. Non, ce n'est pas du sel.
+400. Non, il n'y a pas d'eau.
+401. Oui, j'ai deux cours.
+402. Si, j'aime beaucoup étudier.
+403. Non, ce n'est pas mon portable.
+404. Si, il y a un café là-bas.
+405. Ce n'est pas de l'eau.
+406. Il n'y a plus de lait.
+407. J'obéis à mes parents.
+408. Tu réussis dans la vie !
+409. Vous remplissez cette fiche, s'il vous plaît.
+410. Les enfants grandissent vite.
+411. Ce parc embellit d'année en année.
+412. Nous choisissons le menu à vingt euros.
+413. Je suis libre ce soir.
+414. Ces gâteaux sont très bons.
+415. J'achète ces chaussures.
+416. Il est très occupé cet après-midi.
+417. Je préfère ce livre-ci à ce livre-là.
+418. J'aime beaucoup cette couleur.
+419. C'est le passeport de Léa ? Oui, c'est son passeport.
+420. C'est la voiture de Pierre ? Oui, c'est sa voiture.
+421. C'est votre ville ? Oui, c'est notre ville.
+422. Ce sont les parents de Pierre et de Jeanne ? Oui, ce sont leurs parents.
+423. Ce sac est à toi ? Oui, il est à moi. C'est mon sac.
+424. Cette maison est à vous ? Oui, elle est à nous. C'est notre maison.
+425. Ces stylos sont à Emma ? Oui, ils sont à elle. Ce sont ses stylos.
+426. Cet appartement est à tes parents ? Oui, il est à eux. C'est leur appartement.
+427. Je choisis ce livre.
+428. Ce stylo est à toi ?
+429. J'arrive bientôt.
+430. Pierre cherche du travail.
+431. Tu chantes très bien !
+432. Vous habitez à Bordeaux ?
+433. Ils écoutent de la musique.
+434. Nous voyageons en France.
+435. Tu préfères un thé ou un café ?
+436. Je travaille dans une supérette.
+437. Elles regardent beaucoup la télé.
+438. Marie achète une baguette chaque matin.
+439. Une belle vue.
+440. Une actrice italienne.
+441. Une bonne idée.
+442. Une robe blanche.
+443. Une fleur jaune.
+444. Une fille sportive.
+445. De vieux amis.
+446. Des livres difficiles.
+447. Des stylos français.
+448. De beaux arbres.
+449. Des manteaux gris.
+450. De nouveaux magasins.
+451. J'aime beaucoup le cinéma.
+452. C'est un livre rouge.
+453. Je suis à Paris.
+454. On est le 2 juillet aujourd'hui.
+455. Nous sommes quatre.
+456. Ce sont les parents de Pierre.
+457. Vous êtes de Bordeaux ?
+458. Ils ont quinze ans.
+459. Tu as mal à la tête ?
+460. Il y a une supérette près d'ici ?
+461. Nous avons deux cours de français par semaine.
+462. J'ai envie d'une glace.
+463. Tu as une moto ? Non, mais j'ai un skateboard.
+464. Elle est japonaise ? Oui, elle est japonaise.
+465. Jean est étudiant ? Non, il est lycéen.
+466. Sophie a des enfants ? Oui, elle a deux enfants.
+467. Vous êtes journaliste ? Non, je suis photographe.
+468. Vous avez faim ? Non, mais nous avons soif.
+469. Nicolas et Pascal sont frères ? Oui, ils sont frères.
+470. Chloé et Thomas ont un chat ? Oui, ils ont un chat.
+471. Il est français.
+472. Vous avez raison.
+473. un sac
+474. une montre
+475. un croissant
+476. un hôtel
+477. une baguette
+478. des arbres
+479. des oranges
+480. une église
+481. la maison de Paul
+482. l'école de Mari
+483. le Japon
+484. la France
+485. la musique
+486. l'opéra
+487. les légumes
+488. les parents de Jean
+489. Il y a du poisson.
+490. Il y a de l'huile.
+491. Il y a du beurre.
+492. Il y a de la moutarde.
+493. Il y a de la viande.
+494. Il y a de la confiture.
+495. Il y a de l'ail.
+496. Il y a du vinaigre.
+497. Voici un citron.
+498. Voilà la tour Eiffel.
+499. C'est de l'eau.
+500. Ce sont des escargots.
+501. Il y a du lait dans le frigo.
+502. Le lait est bon pour la santé.
+503. C'est un stylo.
+504. Ce sont des légumes.
