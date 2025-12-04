@@ -19,7 +19,7 @@ export default function App() {
   const activeSourceRef = useRef<AudioBufferSourceNode | null>(null);
 
   // Prefetch Window Size
-  const PREFETCH_COUNT = 10;
+  const PREFETCH_COUNT = 3;
 
   // Initialize Audio Context on user interaction and start prefetching
   const initializeAudio = useCallback(() => {
